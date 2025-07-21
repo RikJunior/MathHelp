@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ADD8E6 0%, #AFEEEE 100%);
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.name > p {
+    font-size: 48px;
+    font-weight: 800;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2E4A6B;
+}
+
+.slogan > p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2E4A6B;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    padding: 35px 30px;
+    width: 320px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.feature-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2E4A6B;
+}
+
+.feature-description {
+    font-size: 20px;
+    color: #2E4A6B;
+    line-height: 1.5;
+}
+
+.start-button-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.start-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 18px 40px;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}

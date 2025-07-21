@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ADD8E6 0%, #AFEEEE 100%);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.start-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.start-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 18px 36px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
+
+.select-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2E4A6B;
+    padding-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.select-button {   
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    padding: 35px 30px;
+    width: 320px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.select-button:hover {
+    transform: scale(1.05);
+}
+
+.button-icon {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.button-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2E4A6B;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2E4A6B;
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .buttons,
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}

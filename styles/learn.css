@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #ADD8E6 0%, #AFEEEE 100%);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  color: #2E4A6B;
+}
+
+.learning-page {
+  width: 100%;
+  max-width: 900px;
+  background: white;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.back-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #2E4A6B;
+}
+
+.slide {
+  margin-bottom: 40px;
+}
+
+.slide-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #2E4A6B;
+}
+
+.slide-visual {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.slide-content {
+  font-size: 1.2rem;
+  color: #2E4A6B;
+  max-width: 700px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-align: center;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-button {
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:disabled {
+  background-color: #90caf9;
+  cursor: default;
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: #1976d2;
+}
+
+#slide-indicator {
+  font-weight: bold;
+  font-size: 1.1rem;
+  min-width: 60px;
+  color: #2E4A6B;
+}
+
+/* Задание */
+#answer-block {
+  margin-top: 20px;
+}
+
+#user-answer {
+  padding: 10px;
+  font-size: 18px;
+  width: 120px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  color: #2E4A6B;
+}
+
+#check-answer {
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#check-answer:hover {
+  background-color: #e65100;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Кнопка перехода к следующей теме */
+#next-topic {
+  margin-top: 15px;
+  background-color: #8E44AD;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#next-topic:hover {
+  background-color: #732d91;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
