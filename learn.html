@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Обучение математике</title>
+  <link rel="stylesheet" href="styles/learn.css" />
+</head>
+<body>
+  <div id="learning-page" class="learning-page">
+    <div class="container">
+      <button class="back-button" id="backBtn">К выбору уровня</button>
+
+      <h1 class="page-title" id="learning-title">Загрузка...</h1>
+
+      <div class="slide" id="current-slide">
+        <h2 class="slide-title" id="slide-title"></h2>
+        <div class="slide-visual" id="slide-visual"></div>
+        <p class="slide-content" id="slide-content"></p>
+        <div class="input">
+          <input type="text" id="answer-input" style="display:none" placeholder="Введите ответ" />
+        </div>
+        <button id="check-answer" style="display:none">Проверить</button>
+        <p id="feedback" style="color:#2E4A6B; font-weight:bold;"></p>
+      </div>
+
+      <div class="navigation-buttons">
+        <button class="nav-button" id="prev-slide" disabled>← Назад</button>
+        <span id="slide-indicator">0 / 0</span>
+        <button class="nav-button" id="next-slide">Вперёд →</button>
+      </div>
+
+      <button id="next-topic" style="display:none; margin-top: 20px;">Перейти к следующей теме</button>
+    </div>
+  </div>
+
+  <script src="src/lesson-loader.js"></script>
+</body>
+</html>
